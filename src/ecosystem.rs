@@ -69,9 +69,6 @@ impl Ecosystem
             let best = self.individuals.iter().min()
                 .unwrap();
 
-            //self.print();
-            //best.print();
-            
             if best.get_fitness() == 0.0 // perfect
             {
                 break;

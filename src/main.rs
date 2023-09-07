@@ -18,7 +18,7 @@ fn main()
 
     let mut system = Ecosystem::new(9, 2, points);
 
-    let report = system.run(30);
+    let report = system.run(100);
 
     println!("{}", report.to_string());
 }
